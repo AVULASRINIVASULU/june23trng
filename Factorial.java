@@ -1,13 +1,16 @@
+import java.util.*;
 class Factorial
 {
-void fact(int n)
+public static void main(String args[])
 {
-int fact=1;
+Scanner sc=new Scanner(System.in);
+{
+int n=sc.nextInt();
+int fact=sc.nextInt();
 for(int i=1;i<=n;i++){
-fact=fact*i;
+fact*=i;
+System.out.println(i+"*"+n+"="+fact);
 }
-System.out.println("factorial is"+fact);
 }
-public static void main(String args[]){
-new Factorial().fact(5);
-}}
+}
+}
