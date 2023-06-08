@@ -1,11 +1,11 @@
-class Bike1
-{
-Bike1()
-{
-System.out.println("constructor:");
+class Bike1{
+final int speedlimit=90;
+void run(){
+//speedlimmit=400;
+System.out.println(speedlimit);
 }
-public static void main(String args[])
-{
-Bike1 b=new Bike1();
+public static void main(String args[]){
+Bike1 obj=new Bike1();
+obj.run();
 }
 }
